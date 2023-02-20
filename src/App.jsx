@@ -6,9 +6,15 @@ export function App() {
 
   return (
     <section className='App'>
-        <TwitterFollowCard userName="kikobeats" name="Kiko Beats"/>
-        <TwitterFollowCard userName="goku" name="Goku"/>
-        <TwitterFollowCard userName="MonkeyDLuffyZZ" name="Luffy"/>
+        <TwitterFollowCard userName="kikobeats" name="Kiko Beats">
+          Kiko Beats
+        </TwitterFollowCard>
+        <TwitterFollowCard userName="goku" name="Goku">
+         Goku
+        </TwitterFollowCard>
+        <TwitterFollowCard userName="MonkeyDLuffyZZ" name="Luffy">
+          Luffy
+        </TwitterFollowCard>
     </section>
   )
 }
